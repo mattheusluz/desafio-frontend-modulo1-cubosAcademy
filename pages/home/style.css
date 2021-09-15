@@ -1,0 +1,66 @@
+/* --- SECTION HERO --- */
+
+.hero {
+  display: flex;
+  align-items: flex-end;
+
+  height: 100vh;
+
+  background-image: url(../../assets/home/image-homepage-hero.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.caixa {
+  width: 445px;
+
+  background-color: #FAFAFA;
+}
+
+.caixa h1 {
+  font-family: 'Ibarra Real Nova', serif;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 50px;  
+  letter-spacing: -0.446429px;
+  color: #33323D;
+
+  padding: 56px 27px;
+}
+
+.btn-seta {
+  padding: 18px 16px;
+
+  background-color: #000000;
+  opacity: 0.1;
+  mix-blend-mode: normal;
+}
+
+.btn-hero {
+  display: flex;
+  align-items: center;
+
+  max-width: 200px;
+  color: #FFFFFF;
+
+  background-color: #203A4C;
+}
+
+.btn-hero:hover {
+  background-color: #5FB4A2;
+}
+
+.btn-seta {
+  margin-right: 34px;
+}
+
+/* --- SOBRE --- */
+
+.sobre {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.alinhar-btn {
+  text-align: center;
+}
